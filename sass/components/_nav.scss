@@ -1,0 +1,22 @@
+nav {
+  .nav_elements {
+    display: flex;
+    font-size: 2rem;
+    color: white;
+    padding: 5rem 10rem;
+    // background-color: black;
+    justify-content: space-between;
+    .logo {
+    }
+    .sub_nav {
+      display: flex;
+      &--elements {
+        margin-right: 2rem;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
