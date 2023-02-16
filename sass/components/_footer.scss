@@ -1,6 +1,31 @@
-footer{
-    width: 100%;
-    height: 50vh;
+footer {
+  width: 100%;
+  height: 50vh;
+  background-color: $navi-blue;
+  padding: 5rem;
+  .footer_content {
     color: white;
-    background-color: $navi-blue;
+    // border: 1px solid white;
+    transform: translateY(50%);
+    text-align: center;
+    // padding: 2rem 4rem;
+    .footer_heading {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+    .social_links {
+      display: flex;
+      margin-bottom: 2rem;
+      justify-content: center;
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.5rem;
+        margin-right: 2rem;
+      }
+    }
+    h5 {
+      font-size: 1.2rem;
+    }
+  }
 }

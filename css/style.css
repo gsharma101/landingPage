@@ -87,8 +87,26 @@ nav .nav_elements {
 footer {
   width: 100%;
   height: 50vh;
-  color: white;
-  background-color: #000010; }
+  background-color: #000010;
+  padding: 5rem; }
+  footer .footer_content {
+    color: white;
+    transform: translateY(50%);
+    text-align: center; }
+    footer .footer_content .footer_heading {
+      font-size: 4rem;
+      margin-bottom: 2rem; }
+    footer .footer_content .social_links {
+      display: flex;
+      margin-bottom: 2rem;
+      justify-content: center; }
+      footer .footer_content .social_links a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.5rem;
+        margin-right: 2rem; }
+    footer .footer_content h5 {
+      font-size: 1.2rem; }
 
 .button_box .btn {
   border: none;
