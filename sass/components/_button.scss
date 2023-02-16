@@ -9,9 +9,12 @@
     }
   }
   .learnMoreBtn {
+    margin-right: 2rem;
+    color: $navi-blue-light;
   }
 
-  .getStartedbtn {
+  .getStartedBtn {
+    color: white;
+    background-color: $navi-blue-light;
   }
 }
-// background: linear-gradient(to right, #52a4de, #7146f3);

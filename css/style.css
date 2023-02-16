@@ -72,9 +72,9 @@ header {
 
 nav .nav_elements {
   display: flex;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: white;
-  padding: 5rem 10rem;
+  padding: 6rem 12rem;
   justify-content: space-between; }
   nav .nav_elements .sub_nav {
     display: flex; }
@@ -97,3 +97,11 @@ footer {
   border-radius: 5rem; }
   .button_box .btn:hover {
     cursor: pointer; }
+
+.button_box .learnMoreBtn {
+  margin-right: 2rem;
+  color: #52a4de; }
+
+.button_box .getStartedBtn {
+  color: white;
+  background-color: #52a4de; }
