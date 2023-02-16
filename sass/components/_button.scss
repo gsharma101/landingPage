@@ -1,0 +1,17 @@
+.button_box {
+  .btn {
+    border: none;
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .learnMoreBtn {
+  }
+
+  .getStartedbtn {
+  }
+}
+// background: linear-gradient(to right, #52a4de, #7146f3);

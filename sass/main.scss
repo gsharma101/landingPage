@@ -4,11 +4,9 @@
 @import "abstract/variables";
 //? Base
 @import "base/base";
-
+@import "base/typography";
 // ? Components
 @import "components/header";
 @import "components/nav";
 @import "components/footer";
-
-
-
+@import "components/button";
